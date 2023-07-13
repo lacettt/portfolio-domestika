@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+title: Fotos
+eleventyNavigation:
+  key: fotos
+  title: Fotos
+  order: 2
+---
+
+<div class="col-12">
+  {# <h1>Galeria</h1> #}
+  {% set elemento = {"image": "foto-10.jpg"} %}
+  {% include "components/project.njk" %}
+
+  <p>
+    A Galeria.
+  </p>
+
+  {% for elemento in fotos %}
+    {% include "components/project.njk" %}
+  {% endfor %}
+
+</div>
