@@ -4,8 +4,8 @@
       {% set projectClass = "full-width" %}
 {% elseif elemento.position === "esquerda"%}
       {% set projectClass = "left" %}
-{% else %}
-      {% set projectClass = "right" %}      
+{% elseif elemento.position === "direita" %}
+      {% set projectClass = "right" %}
 {% endif %}
 
 <div class="project {{projectClass}}">

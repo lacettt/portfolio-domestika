@@ -10,6 +10,10 @@
 @import url("base/grid.css");
 @import url("base/grid-cols.css");
 
+/* Pages */
+@import url("pages/fotos.css");
+@import url("pages/illustrations.css");
+
 /* Libraries */
 @import url("libraries/animate.css");
 

@@ -1,0 +1,29 @@
+.illustration-element,
+.illustration-text {
+  max-width: 90%;
+  margin-top: var(--spacer-2xl);
+}
+
+@media (max-width: 900px) {
+  .illustration-element,
+  .illustration-text {
+    margin-top: var(--spacer-xl);
+  }
+}
+
+@media (max-width: 700px) {
+  .illustration-element,
+  .illustration-text {
+    margin-top: var(--spacer-l);
+  }
+}
+
+@media (max-width: 500px) {
+  .illustration-text {
+    order: -1;
+  }
+  .illustration-element,
+  .illustration-text {
+    margin-top: 0;
+  }
+}

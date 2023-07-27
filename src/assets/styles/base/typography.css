@@ -47,3 +47,12 @@ p {
   font-size: var(--text-2xs);
   text-transform: uppercase;
 }
+/* Familias tipográficas */
+.font-1 {
+  font-family: var(--font-1);
+}
+
+.font-2 {
+  font-family: var(--font-2);
+  font-weight: normal;
+}
