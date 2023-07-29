@@ -1,0 +1,10 @@
+html {
+  --text: #f8eee2;
+  --background: #0c0803;
+  --primary: #ff8906;
+  --secondary: #32200c;
+  --accent: #d08a39;
+
+  --link: var(--primary);
+  --link-hover: var(--secondary);
+}

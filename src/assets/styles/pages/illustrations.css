@@ -1,3 +1,10 @@
+.illustration-text {
+  margin: var(--spacer-2xl);
+  height: min-content;
+  position: sticky;
+  top: 0;
+}
+
 .illustration-element,
 .illustration-text {
   max-width: 90%;

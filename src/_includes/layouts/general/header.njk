@@ -1,18 +1,17 @@
 <div class="header">
-
-  <div class="container grid">
+  <div class="container">
+    <a href="/" class="header-logo"><img src="/assets/icons/Logo_lacet_White.svg" alt="Logo" /></a>
+    <a href="/" class="header-nav-icon"><img src="/assets/icons/menu-icon_white.svg" alt="Nav Icon" /></a>
 
     {% set navPages = collections.all | eleventyNavigation %}
-    <div class="nav col-12">
+    <div class="nav">
       {%- for elemento in navPages %}
-        <a href="{{ elemento.url | url }}"
-          {% if elemento.url == page.url %} class="active"{% endif %}
-        >
-          {{ elemento.title }}
-        </a>
+      <a href="{{ elemento.url | url }}" {% if elemento.url == page.url %} class="active" {% endif %}>
+
+        {{ elemento.title }}
+      </a>
       {%- endfor %}
+
     </div>
-
   </div>
-
 </div>

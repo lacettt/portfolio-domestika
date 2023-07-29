@@ -2,3 +2,8 @@
   padding-top: var(--spacer-m);
   padding-bottom: var(--spacer-m);
 }
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}

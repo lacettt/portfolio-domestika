@@ -1,5 +1,16 @@
 .footer {
-  background-color: lightgrey;
+  background-color: var(--background);
   padding-top: var(--spacer-m);
   padding-bottom: var(--spacer-m);
+  color: var(--text);
+  font-size: var(--text-note);
+}
+
+.footer a {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 20px;
+}
+.footer a:hover {
+  color: var(--link-hover);
 }
