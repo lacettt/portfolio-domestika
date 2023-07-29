@@ -26,6 +26,9 @@
 @keyframes blinking {
   0% {
     color: var(--text);
+    text-shadow: 0 0 20px var(--text), 0 0 30px var(--text),
+      0 0 40px var(--text), 0 0 50px var(--text), 0 0 60px var(--text),
+      0 0 70px var(--text), 0 0 60px var(--text);
   }
   25% {
     color: var(--text);
@@ -34,7 +37,7 @@
     color: var(--text);
   }
   100% {
-    color: var(--background);
+    color: transparent;
   }
 }
 
