@@ -1,5 +1,5 @@
 .illustration-text {
-  margin: var(--spacer-2xl);
+  padding-top: 10vh;
   height: min-content;
   position: sticky;
   top: 0;
